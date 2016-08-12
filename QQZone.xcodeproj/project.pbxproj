@@ -17,6 +17,7 @@
 		8364B4161D5E154C004F4A1A /* CDH_DockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B4151D5E154C004F4A1A /* CDH_DockView.swift */; };
 		8364B4191D5E15AC004F4A1A /* CDH_BottomMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B4181D5E15AC004F4A1A /* CDH_BottomMenuView.swift */; };
 		8364B41B1D5E15F7004F4A1A /* CDH_IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B41A1D5E15F7004F4A1A /* CDH_IconButton.swift */; };
+		8364B41D1D5E1632004F4A1A /* CDH_TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B41C1D5E1632004F4A1A /* CDH_TabbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8364B4151D5E154C004F4A1A /* CDH_DockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_DockView.swift; sourceTree = "<group>"; };
 		8364B4181D5E15AC004F4A1A /* CDH_BottomMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_BottomMenuView.swift; sourceTree = "<group>"; };
 		8364B41A1D5E15F7004F4A1A /* CDH_IconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_IconButton.swift; sourceTree = "<group>"; };
+		8364B41C1D5E1632004F4A1A /* CDH_TabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_TabbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				8364B4151D5E154C004F4A1A /* CDH_DockView.swift */,
 				8364B4181D5E15AC004F4A1A /* CDH_BottomMenuView.swift */,
 				8364B41A1D5E15F7004F4A1A /* CDH_IconButton.swift */,
+				8364B41C1D5E1632004F4A1A /* CDH_TabbarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				8364B4191D5E15AC004F4A1A /* CDH_BottomMenuView.swift in Sources */,
 				8364B3F41D5D769F004F4A1A /* AppDelegate.swift in Sources */,
 				8364B4121D5DFC02004F4A1A /* CDH_LoginViewController.swift in Sources */,
+				8364B41D1D5E1632004F4A1A /* CDH_TabbarView.swift in Sources */,
 				8364B4101D5DFBD4004F4A1A /* CDH_HomeViewController.swift in Sources */,
 				8364B4161D5E154C004F4A1A /* CDH_DockView.swift in Sources */,
 				8364B4141D5E0C3C004F4A1A /* CDH_Const.swift in Sources */,
