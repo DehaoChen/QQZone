@@ -13,6 +13,7 @@
 		8364B3FE1D5D769F004F4A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8364B3FC1D5D769F004F4A1A /* LaunchScreen.storyboard */; };
 		8364B4101D5DFBD4004F4A1A /* CDH_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B40F1D5DFBD4004F4A1A /* CDH_HomeViewController.swift */; };
 		8364B4121D5DFC02004F4A1A /* CDH_LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B4111D5DFC02004F4A1A /* CDH_LoginViewController.swift */; };
+		8364B4141D5E0C3C004F4A1A /* CDH_Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B4131D5E0C3C004F4A1A /* CDH_Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8364B3FF1D5D769F004F4A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8364B40F1D5DFBD4004F4A1A /* CDH_HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_HomeViewController.swift; sourceTree = "<group>"; };
 		8364B4111D5DFC02004F4A1A /* CDH_LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_LoginViewController.swift; sourceTree = "<group>"; };
+		8364B4131D5E0C3C004F4A1A /* CDH_Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_Const.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +91,8 @@
 		8364B4081D5DDFEC004F4A1A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8364B40F1D5DFBD4004F4A1A /* CDH_HomeViewController.swift */,
 				8364B4111D5DFC02004F4A1A /* CDH_LoginViewController.swift */,
+				8364B40F1D5DFBD4004F4A1A /* CDH_HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,6 +107,7 @@
 		8364B40A1D5DDFEC004F4A1A /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				8364B4131D5E0C3C004F4A1A /* CDH_Const.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				8364B3F41D5D769F004F4A1A /* AppDelegate.swift in Sources */,
 				8364B4121D5DFC02004F4A1A /* CDH_LoginViewController.swift in Sources */,
 				8364B4101D5DFBD4004F4A1A /* CDH_HomeViewController.swift in Sources */,
+				8364B4141D5E0C3C004F4A1A /* CDH_Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

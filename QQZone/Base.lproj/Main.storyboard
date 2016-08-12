@@ -54,7 +54,7 @@
                                         </constraints>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123" placeholder="请输入密码..." textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="77X-wa-lmc">
                                         <rect key="frame" x="84" y="54" width="266" height="44"/>
@@ -64,7 +64,7 @@
                                         </constraints>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qix-Ur-snZ">
                                         <rect key="frame" x="0.0" y="110" width="350" height="44"/>
@@ -74,7 +74,7 @@
                                         <state key="normal" title="登入" backgroundImage="login_button_normal"/>
                                         <state key="highlighted" backgroundImage="login_button_pressed"/>
                                         <connections>
-                                            <action selector="loginButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6V-Qy-Faj"/>
+                                            <action selector="loginButtonClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="v5W-pF-XP6"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ba4-8D-Zpz">
