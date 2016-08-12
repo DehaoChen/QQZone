@@ -32,6 +32,9 @@ let kIconButtonProtraitWH : CGFloat = 60
 let kIconButtonY : CGFloat = 40
 
 
+/// 状态栏的高度
+let statusH : CGFloat = 20
+
 
 
 
