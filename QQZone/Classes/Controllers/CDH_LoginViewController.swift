@@ -68,15 +68,14 @@ extension CDH_LoginViewController {
         activityView.startAnimating()
         // 取消交互使能
         view.userInteractionEnabled = false
-        let time = dispatch_time(DISPATCH_TIME_NOW, Int64(1 * NSEC_PER_SEC))
+        let time = dispatch_time(DISPATCH_TIME_NOW, Int64(0 * NSEC_PER_SEC))
         dispatch_after(time, dispatch_get_main_queue()) {
             // 停止正在登入动画
             self.activityView.stopAnimating()
             // 开启交互使能
             self.view.userInteractionEnabled = true
             if account == "123" && password == "123" {
-                print("登入成功, 跳转到下一界面")
-                
+
                 // 页面跳转到主页
                 self.view.window?.rootViewController = CDH_HomeViewController()
             }else {

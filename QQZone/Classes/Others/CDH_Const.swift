@@ -8,6 +8,10 @@
 
 import UIKit
 
+/// 状态栏的高度
+let statusH : CGFloat = 20
+
+
 /// 当前屏幕方向是否为横屏
 var isLandscape = UIScreen.mainScreen().bounds.width > UIScreen.mainScreen().bounds.height
 /// 横屏时 dock 的宽度
@@ -31,9 +35,6 @@ let kIconButtonProtraitWH : CGFloat = 60
 /// IconButton 的 Y 值
 let kIconButtonY : CGFloat = 40
 
-
-/// 状态栏的高度
-let statusH : CGFloat = 20
 
 
 
