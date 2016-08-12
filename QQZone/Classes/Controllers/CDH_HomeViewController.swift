@@ -10,8 +10,12 @@ import UIKit
 
 class CDH_HomeViewController: UIViewController {
 
+    // MARK: - 懒加载控件属性
+    
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.blueColor()
+        view.backgroundColor = UIColor.purpleColor()
     }
 }
