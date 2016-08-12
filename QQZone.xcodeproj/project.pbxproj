@@ -11,7 +11,8 @@
 		8364B3F91D5D769F004F4A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8364B3F71D5D769F004F4A1A /* Main.storyboard */; };
 		8364B3FB1D5D769F004F4A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8364B3FA1D5D769F004F4A1A /* Assets.xcassets */; };
 		8364B3FE1D5D769F004F4A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8364B3FC1D5D769F004F4A1A /* LaunchScreen.storyboard */; };
-		8364B40E1D5DEF41004F4A1A /* CDH_LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B40D1D5DEF41004F4A1A /* CDH_LoginController.swift */; };
+		8364B4101D5DFBD4004F4A1A /* CDH_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B40F1D5DFBD4004F4A1A /* CDH_HomeViewController.swift */; };
+		8364B4121D5DFC02004F4A1A /* CDH_LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364B4111D5DFC02004F4A1A /* CDH_LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,8 @@
 		8364B3FA1D5D769F004F4A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8364B3FD1D5D769F004F4A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8364B3FF1D5D769F004F4A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8364B40D1D5DEF41004F4A1A /* CDH_LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_LoginController.swift; sourceTree = "<group>"; };
+		8364B40F1D5DFBD4004F4A1A /* CDH_HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_HomeViewController.swift; sourceTree = "<group>"; };
+		8364B4111D5DFC02004F4A1A /* CDH_LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,8 @@
 		8364B4081D5DDFEC004F4A1A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8364B40D1D5DEF41004F4A1A /* CDH_LoginController.swift */,
+				8364B40F1D5DFBD4004F4A1A /* CDH_HomeViewController.swift */,
+				8364B4111D5DFC02004F4A1A /* CDH_LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -193,7 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8364B3F41D5D769F004F4A1A /* AppDelegate.swift in Sources */,
-				8364B40E1D5DEF41004F4A1A /* CDH_LoginController.swift in Sources */,
+				8364B4121D5DFC02004F4A1A /* CDH_LoginViewController.swift in Sources */,
+				8364B4101D5DFBD4004F4A1A /* CDH_HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
