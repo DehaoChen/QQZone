@@ -12,6 +12,6 @@ class CDH_HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.blueColor()
     }
 }

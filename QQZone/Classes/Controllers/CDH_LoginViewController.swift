@@ -77,6 +77,8 @@ extension CDH_LoginViewController {
             if account == "123" && password == "123" {
                 print("登入成功, 跳转到下一界面")
                 
+                // 页面跳转到主页
+                self.view.window?.rootViewController = CDH_HomeViewController()
             }else {
                 //print("账号或密码错误, 请重新输入!")
                 self.showsErrorInfo("登入提示", errorInfo: "账号或密码错误, 请重新输入!")
